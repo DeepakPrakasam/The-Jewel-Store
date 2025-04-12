@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhandapani Jewellery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+</head>
+<body>
+    
+        <div class="alert alert-warning rounded-2">
+            <marquee behavior="alternate" direction="left">
+                Today: <strong>Gold</strong> 22k - 1g = Rs. 8770 | Today:  <strong>Silver</strong> 1g = Rs. 110.00 | Today: <strong>Platinum</strong> 1g = Rs. 3227
+            </marquee>
+        </div>
+
+    
+        <nav class="navbar navbar-expand-sm rounded-2" style="background-color: #ffd0d0;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><strong>DJ</strong></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-lg-center" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><strong>All Jewellery</strong></a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="GoldPage.html"><strong>Gold</strong></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="SilverPage.html"><strong>Silver</strong></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><strong>Platinum</strong></a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><strong>Collections</strong></a>
+                  </li>  
+                </ul>
+              </div>
+              
+              <!-- Right-side buttons (Dynamic Login/Logout and Cart) -->
+              <div class="d-flex align-items-center" id="auth-buttons">
+                <!-- Placeholder: login or logout will be inserted by JS -->
+              </div>
+
+            </div>
+          </nav>
+          
+
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide mt-3" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+    
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="public/floral.png" alt="Floral" class="d-block img-fluid" style="height: 350px; width: 100%;">
+        </div>
+        <div class="carousel-item">
+        <img src="public/pic1.webp" alt="Gold" class="d-block img-fluid" style="height: 350px; width: 100%;">
+        </div>
+        <div class="carousel-item">
+        <img src="public/pic2.webp" alt="Silver" class="d-block img-fluid" style="height: 350px; width: 100%;">
+        </div>
+        </div>
+    
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        </button>
+        </div>
+
+        <h1 style="font-family: Merriweather, serif;" class="d-flex justify-content-center mt-4"><strong><i>Find Your Perfect Match</i></strong></h1>
+        <i><p class="d-flex justify-content-center" style="font-family: Merriweather, serif; font-size: large;" >We live every second of our day. Why not make every moment special?</p></i>
+        <div class="container mt-5">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+              <!-- Card 1 -->
+              <div class="col">
+                <div class="card rounded-3">
+                  <img class="card-img-top img-fluid rounded-3" src="public/bangles-cat.jpg" alt="Card image">
+                  <div class="card-body">
+                    <h4 class="card-title text-center">Bangles</h4>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Card 2 -->
+              <div class="col">
+                <div class="card rounded-3">
+                  <img class="card-img-top img-fluid rounded-3" src="public/bracelets-cat.webp" alt="Card image">
+                  <div class="card-body">
+                    <h4 class="card-title text-center">Bracelets</h4>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Card 3 -->
+              <div class="col">
+                <div class="card rounded-3">
+                  <img class="card-img-top img-fluid rounded-3" src="public/chains-cat.webp" alt="Card image">
+                  <div class="card-body">
+                    <h4 class="card-title text-center">Chains</h4>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Card 4 -->
+              <div class="col">
+                <div class="card rounded-3">
+                  <img class="card-img-top img-fluid rounded-3" src="public/earrings-cat.webp" alt="Card image">
+                  <div class="card-body">
+                    <h4 class="card-title text-center">Earrings</h4>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Card 5 -->
+              <div class="col">
+                <div class="card rounded-3">
+                  <img class="card-img-top img-fluid rounded-3" src="public/mangalsutra-cat.jpg" alt="Card image">
+                  <div class="card-body">
+                    <h4 class="card-title text-center">Mangalsutra</h4>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Card 6 -->
+              <div class="col">
+                <div class="card rounded-3">
+                  <img class="card-img-top img-fluid rounded-3" src="public/pendants-cat.webp" alt="Card image">
+                  <div class="card-body">
+                    <h4 class="card-title text-center">Pendants</h4>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 7 -->
+              <div class="col">
+                <div class="card rounded-3">
+                  <img class="card-img-top img-fluid rounded-3" src="public/rings-cat.jpg" alt="Card image">
+                  <div class="card-body">
+                    <h4 class="card-title text-center">Rings</h4>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Card 8 -->
+              <div class="col">
+                <div class="card rounded-3">
+                  <img class="card-img-top img-fluid rounded-3" src="public/bangles-cat.jpg" alt="Card image">
+                  <div class="card-body">
+                    <h4 class="card-title text-center">Bangles</h4>
+                  </div>
+                </div>
+              </div>
+          
+              
+            </div>
+        </div>
+
+        <h1 style="font-family: Merriweather, serif; margin-top: 5%;" class="d-flex justify-content-center"><strong><i>Curated For You</i></strong></h1>
+        
+        <!--div class="container-fluid d-flex justify-content-center align-items-center" 
+        style="background-image: url('public/new-arrivals-background.webp'); 
+            background-size: cover; 
+            background-position: center; 
+            height: 410px; 
+            width: 100%; 
+            margin-top: 2%; 
+            padding: 40px 0; 
+            position: relative;"
+            >
+
+            <i><h2 class="position-absolute text-white" 
+            style="top: 10px; left: 15px; margin: 0; font-weight: bold; text-shadow: 1px 1px 4px rgba(0,0,0,0.6);">
+            Trust us to be part of your precious moments and to deliver jewellery that you'll cherish forever.<br>
+            </h2></i>
+  
+  <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 g-4 "-->
+
+    <!-- Nosepin -->
+    <!--div class="col">
+        <div class="card rounded-4 position-relative p-2" style="margin-top: 70%; width: 630px;height: 330px;">
+            <img class="card-img-top img-fluid rounded-top rounded-4"
+                 src="public/nosepin.webp"
+                 alt="Nosepin"
+                 style="height: 310px; width: 100%; object-fit: cover;">
+          
+            < Text overlay at bottom-left -->
+            <!--h4 class="position-absolute text-white"
+                style="bottom: 10px; left: 15px; margin: 0; font-weight: bold; text-shadow: 1px 1px 4px rgba(0,0,0,0.6);">
+              Nosepin
+            </h4>
+          </div>
+    </div>
+
+    <Kids Jewellery -->
+    <!--div class="col">
+        <div class="card rounded-4 position-relative p-2" style="margin-top: 70%; width: 630px;height: 330px;">
+            <img class="card-img-top img-fluid rounded-top rounded-4"
+                 src="public/kids-jewellery.webp"
+                 alt="Nosepin"
+                 style="height: 310px; width: 100%; object-fit: cover;">
+          
+            <Text overlay at bottom-left -->
+            <!--h4 class="position-absolute text-white"
+                style="bottom: 10px; left: 15px; margin: 0; font-weight: bold; text-shadow: 1px 1px 4px rgba(0,0,0,0.6);">
+              Kids-Jewellery
+            </h4>
+          </div>
+    </div>
+
+  </div>
+</div-->
+
+<div class="container-fluid d-flex justify-content-center align-items-center" 
+        style="background-image: url('public/new-arrivals-background.webp'); 
+               background-size: cover; 
+               background-position: center; 
+               height: 410px; 
+               width: 100%; 
+               margin-top: 2%; 
+               padding: 40px 0; 
+               position: relative;">
+
+    <!-- Top-left text -->
+    <i>
+      <h2 class="position-absolute text-white" 
+          style="top: 10px; left: 15px; margin: 0; font-weight: bold; text-shadow: 1px 1px 4px rgba(0,0,0,0.6);">
+        Trust us to be part of your precious moments and to deliver jewellery that you'll cherish forever.
+      </h2>
+    </i>
+
+    <!-- Carousel for small/medium screens -->
+    <div id="carouselExampleIndicators" 
+    class="carousel slide d-block d-lg-none" 
+    data-bs-ride="carousel" 
+    style="width: 80%; margin-top: 60%;">  <!-- ADDED margin-top -->
+
+    <div class="carousel-inner">
+    <!-- Slide 1: Nosepin -->
+    <div class="carousel-item active">
+    <img class="d-block w-100 rounded-4" 
+      src="public/nosepin.webp" 
+      alt="Nosepin"
+      style="height: 200px; object-fit: cover;">
+    <div class="carousel-caption d-none d-md-block">
+    <h5 style="font-weight: bold; text-shadow: 1px 1px 4px rgba(0,0,0,0.6);">Nosepin</h5>
+    </div>
+    </div>
+
+    <!-- Slide 2: Kids Jewellery -->
+    <div class="carousel-item">
+    <img class="d-block w-100 rounded-4" 
+      src="public/kids-jewellery.webp" 
+      alt="Kids Jewellery"
+      style="height: 200px; object-fit: cover;">
+    <div class="carousel-caption d-none d-md-block">
+    <h5 style="font-weight: bold; text-shadow: 1px 1px 4px rgba(0,0,0,0.6);">Kids-Jewellery</h5>
+    </div>
+    </div>
+    </div>
+
+    <!-- Carousel controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+
+    <!-- Grid for large screens -->
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 g-4 d-none d-lg-flex">
+      
+      <!-- Nosepin -->
+      <div class="col">
+        <div class="card rounded-4 position-relative p-2" style="margin-top: 70%; width: 630px; height: 330px;">
+          <img class="card-img-top img-fluid rounded-top rounded-4"
+               src="public/nosepin.webp"
+               alt="Nosepin"
+               style="height: 310px; width: 100%; object-fit: cover;">
+          <h4 class="position-absolute text-white"
+              style="bottom: 10px; left: 15px; margin: 0; font-weight: bold; text-shadow: 1px 1px 4px rgba(0,0,0,0.6);">
+            Nosepin
+          </h4>
+        </div>
+      </div>
+
+      <!-- Kids Jewellery -->
+      <div class="col">
+        <div class="card rounded-4 position-relative p-2" style="margin-top: 70%; width: 630px; height: 330px;">
+          <img class="card-img-top img-fluid rounded-top rounded-4"
+               src="public/kids-jewellery.webp"
+               alt="Kids Jewellery"
+               style="height: 310px; width: 100%; object-fit: cover;">
+          <h4 class="position-absolute text-white"
+              style="bottom: 10px; left: 15px; margin: 0; font-weight: bold; text-shadow: 1px 1px 4px rgba(0,0,0,0.6);">
+            Kids-Jewellery
+          </h4>
+        </div>
+      </div>
+
+    </div>
+</div>
+
+    <!-- Toast Notification -->
+<div class="position-fixed top-0 end-0 p-3" style="z-index: 1055;">
+  <div id="toastMsg" class="toast align-items-center text-bg-info border-0" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="d-flex">
+      <div class="toast-body" id="toastBody">
+        <!-- Toast message -->
+      </div>
+      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+  </div>
+</div>
+
+
+<footer class="text-white pt-5 pb-4" style="margin-top: 15%; background: linear-gradient(to right, hsl(327, 100%, 87%), #e090fd);">
+    <div class="container text-md-left">
+      <div class="row text-md-left">
+  
+        <!-- QR and App Icons -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Dhandapani Jewellery</h5>
+          <i class="fas fa-qrcode fa-2x mb-3"></i><br>
+          <i class="fab fa-google-play fa-2x me-3"></i>
+          <i class="fab fa-apple fa-2x"></i>
+        </div>
+  
+        <!-- Useful Links -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Useful Links</h5>
+          <p><a href="#" class="text-white text-decoration-none">Delivery Information</a></p>
+          <p><a href="#" class="text-white text-decoration-none">International Shipping</a></p>
+          <p><a href="#" class="text-white text-decoration-none">Payment Options</a></p>
+          <p><a href="#" class="text-white text-decoration-none">Track your Order</a></p>
+          <p><a href="#" class="text-white text-decoration-none">Returns</a></p>
+          <p><a href="#" class="text-white text-decoration-none">Find a Store</a></p>
+        </div>
+  
+        <!-- Information -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Information</h5>
+          <p><a href="#" class="text-white text-decoration-none">Blog</a></p>
+          <p><a href="#" class="text-white text-decoration-none">Offers & Contest Details</a></p>
+          <p><a href="#" class="text-white text-decoration-none">Help & FAQs</a></p>
+          <p><a href="#" class="text-white text-decoration-none">About Dhandapani Jewellery</a></p>
+          <p><a href="#" class="text-white text-decoration-none">Contact Us</a></p>
+        </div>
+  
+        <!-- Contact & Chat -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Contact</h5>
+          <p><i class="fas fa-phone me-2"></i>1800-266-0123</p>
+          <p><i class="fas fa-comment-dots me-2"></i>+91 8147349242</p>
+          <p>
+            <i class="fab fa-whatsapp fa-lg me-3"></i>
+            <i class="fas fa-envelope fa-lg me-3"></i>
+            <i class="fas fa-comments fa-lg"></i>
+          </p>
+        </div>
+      </div>
+  
+      <!-- Social & Payment Icons -->
+      <div class="row text-center mt-4">
+        <div class="col-md-6">
+          <h5 class="text-uppercase mb-3">Follow Us</h5>
+          <a href="#"><i class="fab fa-instagram fa-lg text-white me-3"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-lg text-white me-3"></i></a>
+          <a href="#"><i class="fab fa-facebook fa-lg text-white me-3"></i></a>
+          <a href="#"><i class="fab fa-youtube fa-lg text-white"></i></a>
+        </div>
+        <div class="col-md-6">
+          <h5 class="text-uppercase mb-3">We Accept</h5>
+          <i class="fab fa-cc-visa fa-lg text-white me-3"></i>
+          <i class="fab fa-cc-mastercard fa-lg text-white me-3"></i>
+          <i class="fab fa-cc-paypal fa-lg text-white me-3"></i>
+          <i class="fab fa-cc-amex fa-lg text-white me-3"></i>
+          <i class="fab fa-cc-discover fa-lg text-white"></i>
+        </div>
+      </div>
+  
+      <!-- Bottom Note -->
+      <div class="row mt-4">
+        <div class="col text-center">
+          <p class="mb-1">© 2025 Dhandapani Jewellery. All Rights Reserved.</p>
+          <p>
+            <a href="#" class="text-white text-decoration-none me-3">Terms & Conditions</a>
+            <a href="#" class="text-white text-decoration-none me-3">Privacy Policy</a>
+            <a href="#" class="text-white text-decoration-none">Disclaimer</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+    
+  <script>
+    function showToast(message, type = "primary") {
+      const toastElement = document.getElementById("toastMsg");
+      const toastBody = document.getElementById("toastBody");
+  
+      toastBody.textContent = message;
+      toastElement.className = `toast align-items-center text-bg-${type} border-0`;
+  
+      const toast = new bootstrap.Toast(toastElement);
+      toast.show();
+    }
+  
+    function renderAuthButtons() {
+      const authContainer = document.getElementById("auth-buttons");
+      const token = localStorage.getItem("token");
+  
+      if (token) {
+        // Logged-in: Show Logout
+        authContainer.innerHTML = `
+          <button id="logoutBtn" class="btn btn-link text-dark me-3">
+            <i class="fas fa-sign-out-alt me-2"></i> LOGOUT
+          </button>
+          <a href="#" class="text-dark">
+            <i class="fas fa-shopping-cart fa-lg"></i>
+          </a>
+        `;
+  
+        document.getElementById("logoutBtn").addEventListener("click", () => {
+          localStorage.removeItem("token");
+          renderAuthButtons(); // Update navbar
+          showToast("Logout successful!", "light"); // ✅ Toast on logout
+        });
+  
+      } else {
+        // Not logged in: Show Login
+        authContainer.innerHTML = `
+          <a href="Login.html" class="btn btn-link text-dark me-3">
+            <i class="fas fa-user me-2"></i> LOG IN
+          </a>
+          <a href="#" class="text-dark">
+            <i class="fas fa-shopping-cart fa-lg"></i>
+          </a>
+        `;
+      }
+    }
+  
+    window.addEventListener("DOMContentLoaded", renderAuthButtons);
+  </script>
+  
+  
+  
+</body>
+</html>

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <div class="alert alert-warning rounded-2">
+    <marquee behavior="alternate" direction="left">
+        Today: <strong>Gold</strong> 22k - 1g = Rs. 8770 | Today:  <strong>Silver</strong> 1g = Rs. 110.00 | Today: <strong>Platinum</strong> 1g = Rs. 3227
+    </marquee>
+  </div>
+
+    <nav class="navbar navbar-expand-sm rounded-2" style="background-color: #ffd0d0;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><strong>DJ</strong></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-lg-center" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><strong>All Jewellery</strong></a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="GoldPage.html"><strong>Gold</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="SilverPage.html"><strong>Silver</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><strong>Platinum</strong></a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#"><strong>Collections</strong></a>
+              </li>  
+            </ul>
+          </div>
+          
+          <!-- Right-side buttons (Dynamic Login/Logout and Cart) -->
+          <div class="d-flex align-items-center" id="auth-buttons">
+            <!-- Placeholder: login or logout will be inserted by JS -->
+          </div>
+        </div>
+      </nav>
+
+      <div><img src="public/goldheader.webp" alt="goldcollection" class="img-fluid mt-3"></div>
+
+      <h1 style="font-family: Merriweather, serif;" class="d-flex justify-content-center mt-4"><i>Designed For <strong>Everyday Moments</strong></i></h1>
+
+      <div class="container mt-5">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4">
+          <!-- Card 1 -->
+          <div class="col">
+            <div class="card rounded-3">
+              <img class="card-img-top img-fluid rounded-3" src="public/gold1.jpg" alt="Card image">
+              <div class="card-body">
+                <h5 class="card-title">Radiant Circles Gold Stud Earrings</h5>
+               <h4 class="card-title" style="font-family: Verdana, sans-serif">₹ 34317</h4>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Card 2 -->
+          <div class="col">
+            <div class="card rounded-3">
+              <img class="card-img-top img-fluid rounded-3" src="public/gold2.webp" alt="Card image">
+              <div class="card-body">
+                <h5 class="card-title">Enticing Petite Drop Earrings</h5>
+               <h4 class="card-title" style="font-family: Verdana, sans-serif">₹ 38517</h4>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Card 3 -->
+          <div class="col">
+            <div class="card rounded-3">
+              <img class="card-img-top img-fluid rounded-3" src="public/gold3.webp" alt="Card image">
+              <div class="card-body">
+                <h5 class="card-title">Lattice Glow Gold Drop Earrings</h5>
+               <h4 class="card-title" style="font-family: Verdana, sans-serif">₹ 44317</h4>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Card 4 -->
+          <div class="col">
+            <div class="card rounded-3">
+              <img class="card-img-top img-fluid rounded-3" src="public/gold4.webp" alt="Card image">
+              <div class="card-body">
+                <h5 class="card-title">Leaf Motif Gold Drop Earrings</h5>
+               <h4 class="card-title" style="font-family: Verdana, sans-serif">₹ 37217</h4>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Card 5 -->
+          <div class="col">
+            <div class="card rounded-3">
+              <img class="card-img-top img-fluid rounded-3" src="public/gold15.webp" alt="Card image">
+              <div class="card-body">
+                <h5 class="card-title">Glorious 22 Karat Yellow Gold Floral </h5>
+               <h4 class="card-title" style="font-family: Verdana, sans-serif">₹ 19235</h4>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Card 6 -->
+          <div class="col">
+            <div class="card rounded-3">
+              <img class="card-img-top img-fluid rounded-3" src="public/gold6.webp" alt="Card image">
+              <div class="card-body">
+                <h5 class="card-title">Delicate Contemporary Gold Ring</h5>
+               <h4 class="card-title" style="font-family: Verdana, sans-serif">₹ 22734</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 7 -->
+          <div class="col">
+            <div class="card rounded-3">
+              <img class="card-img-top img-fluid rounded-3" src="public/gold7.webp" alt="Card image">
+              <div class="card-body">
+                <h5 class="card-title">Abstract Graceful Ring</h5>
+               <h4 class="card-title" style="font-family: Verdana, sans-serif">₹ 21475</h4>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Card 8 -->
+          <div class="col">
+            <div class="card rounded-3">
+              <img class="card-img-top img-fluid rounded-3" src="public/gold8.webp" alt="Card image">
+              <div class="card-body">
+                <h5 class="card-title">Endless Charm Gold Finger Ring</h5>
+               <h4 class="card-title" style="font-family: Verdana, sans-serif">₹ 19556</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 9 -->
+          <div class="col">
+            <div class="card rounded-3">
+              <img class="card-img-top img-fluid rounded-3" src="public/gold9.webp" alt="Card image">
+              <div class="card-body">
+                <h5 class="card-title">Luminous Nature Ring</h5>
+               <h4 class="card-title" style="font-family: Verdana, sans-serif">₹ 18766</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 10 -->
+          <div class="col">
+            <div class="card rounded-3">
+              <img class="card-img-top img-fluid rounded-3" src="public/gold10.webp" alt="Card image">
+              <div class="card-body">
+                <h5 class="card-title">Ribbony Elegance Ring</h5>
+               <h4 class="card-title" style="font-family: Verdana, sans-serif">₹ 27378</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 11 -->
+          <div class="col">
+            <div class="card rounded-3">
+              <img class="card-img-top img-fluid rounded-3" src="public/gold11.jpg" alt="Card image">
+              <div class="card-body">
+                <h5 class="card-title">Intricate Grace Bracelet</h5>
+               <h4 class="card-title" style="font-family: Verdana, sans-serif">₹ 54235</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 12 -->
+          <div class="col">
+            <div class="card rounded-3">
+              <img class="card-img-top img-fluid rounded-3" src="public/gold12.webp" alt="Card image">
+              <div class="card-body">
+                <h5 class="card-title">Slender Gold Bracelet</h5>
+               <h4 class="card-title" style="font-family: Verdana, sans-serif">₹ 123357</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 13 -->
+          <div class="col">
+            <div class="card rounded-3">
+              <img class="card-img-top img-fluid rounded-3" src="public/gold13.webp" alt="Card image">
+              <div class="card-body">
+                <h5 class="card-title">Dual Toned Gold Bracelet</h5>
+               <h4 class="card-title" style="font-family: Verdana, sans-serif">₹ 133906</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 14 -->
+          <div class="col">
+            <div class="card rounded-3">
+              <img class="card-img-top img-fluid rounded-3" src="public/gold14.webp" alt="Card image">
+              <div class="card-body">
+                <h5 class="card-title">Ethnic Elegant Pendant</h5>
+               <h4 class="card-title" style="font-family: Verdana, sans-serif">₹ 28796</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 15 -->
+          <div class="col">
+            <div class="card rounded-3">
+              <img class="card-img-top img-fluid rounded-3" src="public/gold5.webp" alt="Card image">
+              <div class="card-body">
+                <h5 class="card-title">Enchanted Grace Gold Necklace</h5>
+               <h4 class="card-title" style="font-family: Verdana, sans-serif">₹ 45387</h4>
+              </div>
+            </div>
+          </div>
+      
+          
+        </div>
+    </div>
+
+      <footer class="text-white pt-5 pb-4" style="margin-top: 5%; background: linear-gradient(to right, hsl(327, 100%, 87%), #e090fd);">
+        <div class="container text-md-left">
+          <div class="row text-md-left">
+      
+            <!-- QR and App Icons -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold">Dhandapani Jewellery</h5>
+              <i class="fas fa-qrcode fa-2x mb-3"></i><br>
+              <i class="fab fa-google-play fa-2x me-3"></i>
+              <i class="fab fa-apple fa-2x"></i>
+            </div>
+      
+            <!-- Useful Links -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold">Useful Links</h5>
+              <p><a href="#" class="text-white text-decoration-none">Delivery Information</a></p>
+              <p><a href="#" class="text-white text-decoration-none">International Shipping</a></p>
+              <p><a href="#" class="text-white text-decoration-none">Payment Options</a></p>
+              <p><a href="#" class="text-white text-decoration-none">Track your Order</a></p>
+              <p><a href="#" class="text-white text-decoration-none">Returns</a></p>
+              <p><a href="#" class="text-white text-decoration-none">Find a Store</a></p>
+            </div>
+      
+            <!-- Information -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold">Information</h5>
+              <p><a href="#" class="text-white text-decoration-none">Blog</a></p>
+              <p><a href="#" class="text-white text-decoration-none">Offers & Contest Details</a></p>
+              <p><a href="#" class="text-white text-decoration-none">Help & FAQs</a></p>
+              <p><a href="#" class="text-white text-decoration-none">About Dhandapani Jewellery</a></p>
+              <p><a href="#" class="text-white text-decoration-none">Contact Us</a></p>
+            </div>
+      
+            <!-- Contact & Chat -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold">Contact</h5>
+              <p><i class="fas fa-phone me-2"></i>1800-266-0123</p>
+              <p><i class="fas fa-comment-dots me-2"></i>+91 8147349242</p>
+              <p>
+                <i class="fab fa-whatsapp fa-lg me-3"></i>
+                <i class="fas fa-envelope fa-lg me-3"></i>
+                <i class="fas fa-comments fa-lg"></i>
+              </p>
+            </div>
+          </div>
+      
+          <!-- Social & Payment Icons -->
+          <div class="row text-center mt-4">
+            <div class="col-md-6">
+              <h5 class="text-uppercase mb-3">Follow Us</h5>
+              <a href="#"><i class="fab fa-instagram fa-lg text-white me-3"></i></a>
+              <a href="#"><i class="fab fa-twitter fa-lg text-white me-3"></i></a>
+              <a href="#"><i class="fab fa-facebook fa-lg text-white me-3"></i></a>
+              <a href="#"><i class="fab fa-youtube fa-lg text-white"></i></a>
+            </div>
+            <div class="col-md-6">
+              <h5 class="text-uppercase mb-3">We Accept</h5>
+              <i class="fab fa-cc-visa fa-lg text-white me-3"></i>
+              <i class="fab fa-cc-mastercard fa-lg text-white me-3"></i>
+              <i class="fab fa-cc-paypal fa-lg text-white me-3"></i>
+              <i class="fab fa-cc-amex fa-lg text-white me-3"></i>
+              <i class="fab fa-cc-discover fa-lg text-white"></i>
+            </div>
+          </div>
+      
+          <!-- Bottom Note -->
+          <div class="row mt-4">
+            <div class="col text-center">
+              <p class="mb-1">© 2025 Dhandapani Jewellery. All Rights Reserved.</p>
+              <p>
+                <a href="#" class="text-white text-decoration-none me-3">Terms & Conditions</a>
+                <a href="#" class="text-white text-decoration-none me-3">Privacy Policy</a>
+                <a href="#" class="text-white text-decoration-none">Disclaimer</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Toast Notification -->
+<div class="position-fixed top-0 end-0 p-3" style="z-index: 1055;">
+  <div id="toastMsg" class="toast align-items-center text-bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="d-flex">
+      <div class="toast-body" id="toastBody">
+        <!-- Toast message -->
+      </div>
+      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+  </div>
+</div>
+
+    
+<script>
+  function showToast(message, type = "primary") {
+    const toastElement = document.getElementById("toastMsg");
+    const toastBody = document.getElementById("toastBody");
+
+    toastBody.textContent = message;
+    toastElement.className = `toast align-items-center text-bg-${type} border-0`;
+
+    const toast = new bootstrap.Toast(toastElement);
+    toast.show();
+  }
+
+  function renderAuthButtons() {
+    const authContainer = document.getElementById("auth-buttons");
+    const token = localStorage.getItem("token");
+
+    if (token) {
+      // Logged-in: Show Logout
+      authContainer.innerHTML = `
+        <button id="logoutBtn" class="btn btn-link text-dark me-3">
+          <i class="fas fa-sign-out-alt me-2"></i> LOGOUT
+        </button>
+        <a href="#" class="text-dark">
+          <i class="fas fa-shopping-cart fa-lg"></i>
+        </a>
+      `;
+
+      document.getElementById("logoutBtn").addEventListener("click", () => {
+        localStorage.removeItem("token");
+        renderAuthButtons(); // Update navbar
+        showToast("Logout successful!", "light"); // ✅ Toast on logout
+      });
+
+    } else {
+      // Not logged in: Show Login
+      authContainer.innerHTML = `
+        <a href="Login.html" class="btn btn-link text-dark me-3">
+          <i class="fas fa-user me-2"></i> LOG IN
+        </a>
+        <a href="#" class="text-dark">
+          <i class="fas fa-shopping-cart fa-lg"></i>
+        </a>
+      `;
+    }
+  }
+
+  window.addEventListener("DOMContentLoaded", renderAuthButtons);
+</script>
+
+      
+</body>
+
+</html>
